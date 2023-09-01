@@ -22,6 +22,10 @@ CLass Venta{
    }
    Double TotalaPagar(){
    TotalaPagar = 0;
-   
+    
+    for (var prod in productos) {
+      if (prod.fechaDeVencimiento != null) {
+      DateTime fechaActual = DateTime.now();
    }
-
+}
+}
