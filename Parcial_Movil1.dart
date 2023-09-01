@@ -8,9 +8,9 @@
 class Prod{
    String Nom_Producto;
    double Precio_Producto;
-   DateTime Producto;
+   DateTime FechaDeVencimiento;
 
-   Prod(this.Nom_Producto, this.Precio_Producto, this.Producto)
+   Prod(this.Nom_Producto, this.Precio_Producto, this.FechaDeVencimiento)
 
 }
 
@@ -22,6 +22,6 @@ CLass Venta{
    }
    Double TotalaPagar(){
    TotalaPagar = 0;
+   
    }
 
-var 
